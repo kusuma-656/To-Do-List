@@ -3,15 +3,15 @@
 ## Steps to Set Up and Run Locally
 
 1. **Open the Source Code**  
-   Open the source code of this application in the **VS Code editor**.
+   Open the source code of the to-do-list's application in the **VS Code editor**.
 
 2. **Run the Application**  
    - Open the `index.html` file in your web browser.  
-   - Alternatively, you can run it directly from VS Code by choosing the "Run/Open with Live Server" option.  
+   - Alternatively, you can run it directly from VS Code by choosing the "Open with Live Server" option.  
      > *Note: You need to have the Live Server extension installed in VS Code.*
 
 3. **View the Application**  
-   The application will now be visible on your local machine through a default port provided by your browser or the Live Server.
+   The application will now be visible on your local machine through a default port(eg. 5000, 3000) provided by your browser or the Live Server.
 
 ---
 
@@ -29,11 +29,12 @@ We have used **Cloudflare Pages** to deploy this simple to-do-list web applicati
    Link your GitHub account to Cloudflare and select the repository you want to deploy.
 
 4. **Name and Deploy**  
-   - Provide a name for your project.  
-   - Click on "Select and Deploy" to begin the deployment process.
+   - Provide a name for your project.
+   - Provide the additional information like framework used in the project, build command, build output directory, etc.
+   - Click on "Save and Deploy" to begin the deployment process.
 
 5. **Access the Deployed Application**  
-   Your application will be deployed, and you can access it at the following link:  
+   Web application will be deployed, and you can access it at the following link:  
    [https://to-do-list-erz.pages.dev/](https://to-do-list-erz.pages.dev/)  
 
    This web application is publicly accessible.
